@@ -99,7 +99,13 @@ input {
 }
 
 .error:invalid {
-  border-color: red;
+  border-color: rgb(187, 0, 0);
+}
+
+.pwdwarning {
+  font-size: 11px;
+  color: rgb(187, 0, 0);
+  letter-spacing: 1px;
 }
 
 footer {
